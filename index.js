@@ -16,6 +16,10 @@ function round(a) {
   return Math.round(a);
 }
 
+function floor(a) {
+  return Math.floor(a);
+}
+
 function multiply(a, b) {
   return a * b;
 }
@@ -38,4 +42,4 @@ function sqrt(a) {
   return Math.sqrt(a);
 }
 
-module.exports = { add, subtract, abs, round, multiply, divide, modulo, power, sqrt };
+module.exports = { add, subtract, abs, round, floor, multiply, divide, modulo, power, sqrt };
