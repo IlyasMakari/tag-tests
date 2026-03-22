@@ -42,4 +42,8 @@ function sqrt(a) {
   return Math.sqrt(a);
 }
 
-module.exports = { add, subtract, abs, round, floor, multiply, divide, modulo, power, sqrt };
+function ceil(a) {
+  return Math.ceil(a);
+}
+
+module.exports = { add, subtract, abs, round, floor, ceil, multiply, divide, modulo, power, sqrt };
