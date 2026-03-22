@@ -30,4 +30,8 @@ function power(base, exp) {
   return base ** exp;
 }
 
-module.exports = { add, subtract, abs, multiply, divide, modulo, power };
+function sqrt(a) {
+  return Math.sqrt(a);
+}
+
+module.exports = { add, subtract, abs, multiply, divide, modulo, power, sqrt };

@@ -1,6 +1,6 @@
 {
   "name": "tag-tests",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A simple calculator npm package",
   "main": "index.js",
   "license": "MIT"
