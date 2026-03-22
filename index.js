@@ -23,7 +23,7 @@ function modulo(a, b) {
 }
 
 function power(base, exp) {
-  return Math.pow(base, exp);
+  return base ** exp;
 }
 
 module.exports = { add, subtract, multiply, divide, modulo, power };
