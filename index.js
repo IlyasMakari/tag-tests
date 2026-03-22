@@ -42,4 +42,8 @@ function sqrt(a) {
   return Math.sqrt(a);
 }
 
-module.exports = { add, subtract, abs, round, floor, multiply, divide, modulo, power, sqrt };
+function trunc(a) {
+  return Math.trunc(a);
+}
+
+module.exports = { add, subtract, abs, round, floor, trunc, multiply, divide, modulo, power, sqrt };
