@@ -8,6 +8,10 @@ function subtract(a, b) {
   return a - b;
 }
 
+function abs(a) {
+  return Math.abs(a);
+}
+
 function multiply(a, b) {
   return a * b;
 }
@@ -26,4 +30,4 @@ function power(base, exp) {
   return base ** exp;
 }
 
-module.exports = { add, subtract, multiply, divide, modulo, power };
+module.exports = { add, subtract, abs, multiply, divide, modulo, power };
