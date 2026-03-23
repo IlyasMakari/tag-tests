@@ -34,4 +34,8 @@ function sqrt(a) {
   return Math.sqrt(a);
 }
 
-module.exports = { add, subtract, abs, multiply, divide, modulo, power, sqrt };
+function cbrt(a) {
+  return Math.cbrt(a);
+}
+
+module.exports = { add, subtract, abs, multiply, divide, modulo, power, sqrt, cbrt };
