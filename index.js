@@ -26,4 +26,8 @@ function power(base, exp) {
   return base ** exp;
 }
 
-module.exports = { add, subtract, multiply, divide, modulo, power };
+function abs(a) {
+  return Math.abs(a);
+}
+
+module.exports = { add, subtract, abs, multiply, divide, modulo, power };
